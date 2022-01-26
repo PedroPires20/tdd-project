@@ -1,0 +1,7 @@
+Os testes de unidade testam pequenas partes do código (como classes ou métodos)
+de forma isolada, enquanto os testes de funcionalidade testam o comportamento do
+sistema por completo, incluindo toda integração entre seus diferentes módulos e
+também a interface com o usuário. Além disso, os testes de unidade são rápidos e
+executados com frequência durante o desenvolvimento, enquanto os testes de
+funcionalidade são mais lentos e complexos sendo, portanto, executados com menor
+frequência durante o desenvolvimento.
