@@ -1,0 +1,20 @@
+O processo se inicia escrevendo um teste funcional (end-to-end) para uma nova
+funcionalidade a ser implementada. Depois os testes funcionais devem ser
+executados e, inicialmente, eles irão falhar. Inicia-se, então um ciclo de TDD
+se inicia para escrever cada unidade necessária para que o teste funcional
+passe. Sendo assim, inicialmente, é escrito um teste de unidade para a unidade a
+ser implementada. Novamente, esse teste falha inicialmente. Para que o teste
+passe, escrevemos um código mínimo para a unidade e executamos novamente os
+testes. Esse ciclo se repete até que a implementação seja considerada
+"funcional". Nesse momento, os testes já passam e, então, se avalia a
+necessidade de refatoração do código, que, se feita, deve ser seguida de uma
+nova execução dos testes, de modo a garantir que nada é "quebrado". Após a
+finalização do ciclo de uma unidade, os testes funcionais são novamente
+executados. Se eles passam, avaliamos a necessidade de refatoração da aplicação
+e, se alguma refatoração é feita, a suite de testes é novamente executada para
+garantir que nenhuma regressão foi introduzida. Caso os testes funcionais ainda
+falham, o ciclo TDD para as unidades e iterado novamente, com a implementação de
+uma nova unidade que "ajude" o teste funcional a passar (as unidades são
+implementadas sempre pouco a pouco, seguindo o princípio "baby-steps"). Sendo
+assim, o ciclo implementação de uma nova unidade/execução dos testes
+funcionais é iterado até que os testes funcionais passem.
